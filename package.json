@@ -1,0 +1,25 @@
+{
+  "name": "benchmark-js",
+  "version": "1.0.0",
+  "description": "one can benchmark js statement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjnathe-webonise/benchmark-js.git"
+  },
+  "keywords": [
+    "benchmark-js"
+  ],
+  "author": "vijayraj nathe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vjnathe-webonise/benchmark-js/issues"
+  },
+  "homepage": "https://github.com/vjnathe-webonise/benchmark-js#readme",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
