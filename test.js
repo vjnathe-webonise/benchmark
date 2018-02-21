@@ -35,8 +35,10 @@ suite.add('parseInt', () => {
 .add('+convert', () => {
     assert((+convert) , 1234)
 })
-.on('complete', (b) => { 
-   console.log(b);
+.on('complete', function()  { 
+    this.forEach((test) => console.log(`Test: ${test.name}, Operations: ${test.hz}`));
+    console.log('Fastest is ' + this.filter('fastest').map('name'));
+    console.log('Slowest is ' + this.filter('slowest').map('name'));
 })
 .run({async : true}); 
     
