@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/vjnathe-webonise/benchmark-js#readme",
   "dependencies": {
-    "benchmark": "^2.1.4"
+    "benchmark": "^2.1.4",
+    "lodash": "^4.17.5",
+    "underscore": "^1.8.3"
   }
 }
